@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@component {
+  .continer {
+    @apply w-full md:w-[95%] lg:w-[85%];
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css"; */
